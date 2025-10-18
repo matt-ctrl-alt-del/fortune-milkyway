@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://3jc62poruunt"]
+[gd_scene load_steps=8 format=3 uid="uid://3jc62poruunt"]
 
 [ext_resource type="PackedScene" uid="uid://ddqlfu40gv1i5" path="res://scenes/map_container.tscn" id="1_0wfyh"]
 [ext_resource type="Script" uid="uid://3u3o2aml21up" path="res://script/main.gd" id="1_jyhfs"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://by4bsj233r1fh" path="res://scenes/killzone.tscn" id="2_tbgi4"]
 [ext_resource type="AudioStream" uid="uid://bskf1lgy73pr5" path="res://music/jump.wav" id="5_tefeu"]
 [ext_resource type="AudioStream" uid="uid://b8qndokogyf1j" path="res://music/hurt.wav" id="6_o6xl0"]
+[ext_resource type="AudioStream" uid="uid://ilv740nh4586" path="res://music/chip-mode-danijel-zambo-main-version-1431-02-05.mp3" id="7_o6xl0"]
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_jyhfs")
@@ -34,7 +35,7 @@ collision_mask = 3
 position = Vector2(11, 573)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-zoom = Vector2(2, 2)
+zoom = Vector2(3, 3)
 position_smoothing_enabled = true
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Player"]
@@ -45,7 +46,17 @@ volume_db = -20.0
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 z_index = 4
 stream = ExtResource("6_o6xl0")
-volume_db = 20.0
+volume_db = 10.0
+
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
+z_index = 4
+stream = ExtResource("7_o6xl0")
+volume_db = -5.0
+autoplay = true
+
+[node name="Labels" type="Node" parent="."]
+
+[node name="Killzones" type="Node" parent="."]
 
 [connection signal="body_entered" from="Killzone" to="." method="_on_killzone_body_entered"]
 [connection signal="body_entered" from="Killzone2" to="." method="_on_killzone_body_entered"]
