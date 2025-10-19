@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://q4ompet0aar3"]
+
+[ext_resource type="FontFile" uid="uid://bc68huoeytr4p" path="res://extraction point/Coolvetica Hv Comp.otf" id="1_1bvlm"]
+[ext_resource type="Script" uid="uid://bcxofv8byj27u" path="res://script/progress_bar.gd" id="2_y3kqx"]
+
+[node name="HealthBar" type="CanvasLayer"]
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+offset_left = 18.0
+offset_top = 6.0
+offset_right = 71.0
+offset_bottom = 45.0
+theme_override_fonts/font = ExtResource("1_1bvlm")
+theme_override_font_sizes/font_size = 28
+value = 100.0
+script = ExtResource("2_y3kqx")

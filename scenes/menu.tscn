@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://daoyrxfyh56an" path="res://script/menu.gd" id="1_yqeox"]
 [ext_resource type="FontFile" uid="uid://bc68huoeytr4p" path="res://extraction point/Coolvetica Hv Comp.otf" id="2_con2f"]
-[ext_resource type="Texture2D" uid="uid://mvgux16xdrge" path="res://extraction point/extraction point.jpg" id="2_g3eks"]
+[ext_resource type="Texture2D" uid="uid://dlnw0gi7el87f" path="res://extraction point/2.png" id="2_g3eks"]
 [ext_resource type="StyleBox" uid="uid://cascnb2tx2qic" path="res://button.tres" id="2_vjb58"]
 [ext_resource type="StyleBox" uid="uid://dli8bpifmonf4" path="res://button_pressed.tres" id="4_4ytvr"]
 [ext_resource type="StyleBox" uid="uid://bxput65qwueqq" path="res://button_hover.tres" id="5_g3eks"]
@@ -10,18 +10,29 @@
 [node name="Menu" type="Node2D"]
 script = ExtResource("1_yqeox")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(564, 302)
-scale = Vector2(0.20762962, 0.20762962)
-texture = ExtResource("2_g3eks")
-
 [node name="ButtonManager" type="Control" parent="."]
+z_index = 7
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
+[node name="TextureRect" type="TextureRect" parent="ButtonManager"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -26.000002
+offset_top = -23.999998
+offset_right = 5940.2153
+offset_bottom = 3335.9998
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_g3eks")
+
 [node name="Start" type="Button" parent="ButtonManager"]
+z_index = 10
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -29,9 +40,9 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = 294.0
-offset_top = 366.0
+offset_top = 347.0
 offset_right = 770.9387
-offset_bottom = 461.0
+offset_bottom = 442.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("2_con2f")
@@ -42,11 +53,12 @@ theme_override_styles/hover = ExtResource("5_g3eks")
 text = "Start"
 
 [node name="Quit" type="Button" parent="ButtonManager"]
+z_index = 8
 layout_mode = 0
 offset_left = 314.0
-offset_top = 496.0
+offset_top = 477.0
 offset_right = 790.9388
-offset_bottom = 591.0
+offset_bottom = 572.0
 theme_override_fonts/font = ExtResource("2_con2f")
 theme_override_font_sizes/font_size = 58
 theme_override_styles/normal = ExtResource("2_vjb58")
