@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://slam2ejnsnjr"]
+
+[ext_resource type="Texture2D" uid="uid://bri16ci0fsfu6" path="res://sprites/sailship.png" id="1_q631a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4tobq"]
+size = Vector2(70, 13)
+
+[node name="Ship" type="Area2D"]
+collision_layer = 3
+
+[node name="Ship_Image" type="Sprite2D" parent="."]
+z_index = 1
+texture = ExtResource("1_q631a")
+region_enabled = true
+region_rect = Rect2(292, 69, 75, 46)
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="Ship_Image"]
+shadow_enabled = true
+height = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+z_index = -1
+position = Vector2(-1, 14.5)
+shape = SubResource("RectangleShape2D_4tobq")
+one_way_collision = true

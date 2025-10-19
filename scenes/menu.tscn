@@ -68,5 +68,5 @@ text = "Quit
 "
 
 [connection signal="pressed" from="ButtonManager/Start" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="ButtonManager/Quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="ButtonManager/Quit" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="ButtonManager/Quit" to="." method="_on_quit_pressed"]
