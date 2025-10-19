@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @onready var audio = $AudioStreamPlayer2D
-
+@onready var sprite = $AnimatedSprite2D
 
 
 const SPEED = 175.0
@@ -17,12 +17,18 @@ func _physics_process(delta: float) -> void:
 		velocity.y = JUMP_VELOCITY
 		audio.play()
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction := Input.get_axis("move_left", "move_right")
 	if direction:
 		velocity.x = direction * SPEED
+		sprite.flip_h = direction < 0
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+
+	if not is_on_floor():
+		sprite.play("jump")
+	elif direction:
+		sprite.play("walk")
+	else:
+		sprite.play("idle")
 
 	move_and_slide()
