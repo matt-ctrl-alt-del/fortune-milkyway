@@ -1,9 +1,9 @@
 [gd_scene load_steps=31 format=3 uid="uid://cqdt3ejc4h26h"]
 
-[ext_resource type="Texture2D" uid="uid://c51u4kjtqabnu" path="res://sprites/Minifantasy_TrueHeroesRogueIdle.png" id="1_3vyb7"]
+[ext_resource type="Texture2D" uid="uid://c51u4kjtqabnu" path="res://sprites/Characters/Minifantasy_TrueHeroesRogueIdle.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://dq046ls7hfd8b" path="res://script/player.gd" id="1_g2els"]
-[ext_resource type="Texture2D" uid="uid://diluwasitlbng" path="res://sprites/Minifantasy_TrueHeroesRogueJump.png" id="3_dqkch"]
-[ext_resource type="Texture2D" uid="uid://cva5ulkdaqdno" path="res://sprites/Minifantasy_TrueHeroesRogueWalk.png" id="4_qlg0r"]
+[ext_resource type="Texture2D" uid="uid://diluwasitlbng" path="res://sprites/Characters/Minifantasy_TrueHeroesRogueJump.png" id="3_dqkch"]
+[ext_resource type="Texture2D" uid="uid://cva5ulkdaqdno" path="res://sprites/Characters/Minifantasy_TrueHeroesRogueWalk.png" id="4_qlg0r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]
 atlas = ExtResource("1_3vyb7")

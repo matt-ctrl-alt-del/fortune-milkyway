@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://q4ompet0aar3"]
 
-[ext_resource type="FontFile" uid="uid://bc68huoeytr4p" path="res://extraction point/Coolvetica Hv Comp.otf" id="1_1bvlm"]
+[ext_resource type="FontFile" uid="uid://bc68huoeytr4p" path="res://Images/Coolvetica Hv Comp.otf" id="1_1bvlm"]
 [ext_resource type="Script" uid="uid://bcxofv8byj27u" path="res://script/progress_bar.gd" id="2_y3kqx"]
 
 [node name="HealthBar" type="CanvasLayer"]

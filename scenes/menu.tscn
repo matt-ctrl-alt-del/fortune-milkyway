@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://cb3eqotw8ilbq"]
 
 [ext_resource type="Script" uid="uid://daoyrxfyh56an" path="res://script/menu.gd" id="1_yqeox"]
-[ext_resource type="FontFile" uid="uid://bc68huoeytr4p" path="res://extraction point/Coolvetica Hv Comp.otf" id="2_con2f"]
-[ext_resource type="Texture2D" uid="uid://dlnw0gi7el87f" path="res://extraction point/2.png" id="2_g3eks"]
+[ext_resource type="FontFile" uid="uid://bc68huoeytr4p" path="res://Images/Coolvetica Hv Comp.otf" id="2_con2f"]
+[ext_resource type="Texture2D" uid="uid://dlnw0gi7el87f" path="res://Images/2.png" id="2_g3eks"]
 [ext_resource type="StyleBox" uid="uid://cascnb2tx2qic" path="res://button.tres" id="2_vjb58"]
 [ext_resource type="StyleBox" uid="uid://dli8bpifmonf4" path="res://button_pressed.tres" id="4_4ytvr"]
 [ext_resource type="StyleBox" uid="uid://bxput65qwueqq" path="res://button_hover.tres" id="5_g3eks"]

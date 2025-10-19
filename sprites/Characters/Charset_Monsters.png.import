@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mvgux16xdrge"
-path="res://.godot/imported/extraction point.jpg-95fcd07804a2d81befefcc5ad9547a9a.ctex"
+uid="uid://ch6dviq7gy1ch"
+path="res://.godot/imported/Charset_Monsters.png-373077a7e05858a71be492d46b4dd2f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://extraction point/extraction point.jpg"
-dest_files=["res://.godot/imported/extraction point.jpg-95fcd07804a2d81befefcc5ad9547a9a.ctex"]
+source_file="res://sprites/Characters/Charset_Monsters.png"
+dest_files=["res://.godot/imported/Charset_Monsters.png-373077a7e05858a71be492d46b4dd2f0.ctex"]
 
 [params]
 

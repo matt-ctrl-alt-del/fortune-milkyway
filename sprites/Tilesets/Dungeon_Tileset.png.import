@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckunq4i4n3bbu"
-path="res://.godot/imported/3.png-53ebd2796f9e244e2be3388d17dfd763.ctex"
+uid="uid://bmfc1jrjh6lcb"
+path="res://.godot/imported/Dungeon_Tileset.png-8f48c15a75d2ce3d7290d637c6f1591c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://extraction point/3.png"
-dest_files=["res://.godot/imported/3.png-53ebd2796f9e244e2be3388d17dfd763.ctex"]
+source_file="res://sprites/Tilesets/Dungeon_Tileset.png"
+dest_files=["res://.godot/imported/Dungeon_Tileset.png-8f48c15a75d2ce3d7290d637c6f1591c.ctex"]
 
 [params]
 

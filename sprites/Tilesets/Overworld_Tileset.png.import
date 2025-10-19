@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmd6xyiy7kfqr"
-path="res://.godot/imported/7.png-4a2319103e1433621a942ca940e1bc54.ctex"
+uid="uid://b40nmikdolwj2"
+path="res://.godot/imported/Overworld_Tileset.png-c819b5eb8d11a3f62dc862aa25ca544e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://extraction point/7.png"
-dest_files=["res://.godot/imported/7.png-4a2319103e1433621a942ca940e1bc54.ctex"]
+source_file="res://sprites/Tilesets/Overworld_Tileset.png"
+dest_files=["res://.godot/imported/Overworld_Tileset.png-c819b5eb8d11a3f62dc862aa25ca544e.ctex"]
 
 [params]
 

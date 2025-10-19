@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cva5ulkdaqdno"
-path="res://.godot/imported/Minifantasy_TrueHeroesRogueWalk.png-8a3c439b9fe6fcc257f36931006b2cc1.ctex"
+uid="uid://ckipu5sioe67c"
+path="res://.godot/imported/world_tileset.png-2fb983055d2e7c11e71300b576468c2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Minifantasy_TrueHeroesRogueWalk.png"
-dest_files=["res://.godot/imported/Minifantasy_TrueHeroesRogueWalk.png-8a3c439b9fe6fcc257f36931006b2cc1.ctex"]
+source_file="res://sprites/Tilesets/world_tileset.png"
+dest_files=["res://.godot/imported/world_tileset.png-2fb983055d2e7c11e71300b576468c2d.ctex"]
 
 [params]
 

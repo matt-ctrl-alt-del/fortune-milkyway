@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxwlujq12cv57"
-path="res://.godot/imported/4.png-c63b03b6426e39962e76c1080aac4e75.ctex"
+uid="uid://dmd6xyiy7kfqr"
+path="res://.godot/imported/7.png-fa907b36f1b9d94abeffb3876945b585.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://extraction point/4.png"
-dest_files=["res://.godot/imported/4.png-c63b03b6426e39962e76c1080aac4e75.ctex"]
+source_file="res://Images/7.png"
+dest_files=["res://.godot/imported/7.png-fa907b36f1b9d94abeffb3876945b585.ctex"]
 
 [params]
 

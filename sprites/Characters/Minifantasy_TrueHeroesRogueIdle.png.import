@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlnw0gi7el87f"
-path="res://.godot/imported/2.png-95290e17302c1651ada8d0b98bbdc239.ctex"
+uid="uid://c51u4kjtqabnu"
+path="res://.godot/imported/Minifantasy_TrueHeroesRogueIdle.png-dd593f379ad5b4808c4162edd07edced.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://extraction point/2.png"
-dest_files=["res://.godot/imported/2.png-95290e17302c1651ada8d0b98bbdc239.ctex"]
+source_file="res://sprites/Characters/Minifantasy_TrueHeroesRogueIdle.png"
+dest_files=["res://.godot/imported/Minifantasy_TrueHeroesRogueIdle.png-dd593f379ad5b4808c4162edd07edced.ctex"]
 
 [params]
 

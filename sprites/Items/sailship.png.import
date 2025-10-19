@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clfxt2n55eddx"
-path="res://.godot/imported/Chipset.png-445c6b8bf847c0c3826c3f0d9809b948.ctex"
+uid="uid://bri16ci0fsfu6"
+path="res://.godot/imported/sailship.png-972fcf7149cd1248d98c38dbdbe800af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Chipset.png"
-dest_files=["res://.godot/imported/Chipset.png-445c6b8bf847c0c3826c3f0d9809b948.ctex"]
+source_file="res://sprites/Items/sailship.png"
+dest_files=["res://.godot/imported/sailship.png-972fcf7149cd1248d98c38dbdbe800af.ctex"]
 
 [params]
 

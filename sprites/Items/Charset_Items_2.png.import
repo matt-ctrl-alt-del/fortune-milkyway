@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ch6dviq7gy1ch"
-path="res://.godot/imported/Charset_Monsters.png-af416db38b93ef74ac06d83506cc12b1.ctex"
+uid="uid://bmi6s3ajkxbtf"
+path="res://.godot/imported/Charset_Items_2.png-94433e0e008e1f2dbd50235787167f39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Charset_Monsters.png"
-dest_files=["res://.godot/imported/Charset_Monsters.png-af416db38b93ef74ac06d83506cc12b1.ctex"]
+source_file="res://sprites/Items/Charset_Items_2.png"
+dest_files=["res://.godot/imported/Charset_Items_2.png-94433e0e008e1f2dbd50235787167f39.ctex"]
 
 [params]
 

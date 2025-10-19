@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://diluwasitlbng"
-path="res://.godot/imported/Minifantasy_TrueHeroesRogueJump.png-4924f6c9419ce7197cfe4bac6c803a40.ctex"
+uid="uid://olw34ksryh2u"
+path="res://.godot/imported/6.png-cf35947bb3677a57387e77d0fca904ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Minifantasy_TrueHeroesRogueJump.png"
-dest_files=["res://.godot/imported/Minifantasy_TrueHeroesRogueJump.png-4924f6c9419ce7197cfe4bac6c803a40.ctex"]
+source_file="res://Images/6.png"
+dest_files=["res://.godot/imported/6.png-cf35947bb3677a57387e77d0fca904ea.ctex"]
 
 [params]
 

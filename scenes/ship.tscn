@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://slam2ejnsnjr"]
 
-[ext_resource type="Texture2D" uid="uid://bri16ci0fsfu6" path="res://sprites/sailship.png" id="1_q631a"]
+[ext_resource type="Texture2D" uid="uid://bri16ci0fsfu6" path="res://sprites/Items/sailship.png" id="1_q631a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4tobq"]
 size = Vector2(70, 13)

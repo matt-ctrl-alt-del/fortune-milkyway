@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c51u4kjtqabnu"
-path="res://.godot/imported/Minifantasy_TrueHeroesRogueIdle.png-294bf481fed7ea8e64ff2e878bd068bb.ctex"
+uid="uid://bt7nbj0wjsos1"
+path="res://.godot/imported/2.png-84d6efd0033864dd8d67e75f9509b48e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Minifantasy_TrueHeroesRogueIdle.png"
-dest_files=["res://.godot/imported/Minifantasy_TrueHeroesRogueIdle.png-294bf481fed7ea8e64ff2e878bd068bb.ctex"]
+source_file="res://sprites/Items/2.png"
+dest_files=["res://.godot/imported/2.png-84d6efd0033864dd8d67e75f9509b48e.ctex"]
 
 [params]
 
