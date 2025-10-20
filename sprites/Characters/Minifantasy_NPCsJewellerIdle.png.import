@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcc8tpp3m7ytf"
-path="res://.godot/imported/Material_Piles.png-f1ab525776fe3908adcea9e57ed693ea.ctex"
+uid="uid://pvvm20n54a6s"
+path="res://.godot/imported/Minifantasy_NPCsJewellerIdle.png-afe0f3a2232df20964a669d6448a1266.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Material_Piles.png"
-dest_files=["res://.godot/imported/Material_Piles.png-f1ab525776fe3908adcea9e57ed693ea.ctex"]
+source_file="res://sprites/Characters/Minifantasy_NPCsJewellerIdle.png"
+dest_files=["res://.godot/imported/Minifantasy_NPCsJewellerIdle.png-afe0f3a2232df20964a669d6448a1266.ctex"]
 
 [params]
 

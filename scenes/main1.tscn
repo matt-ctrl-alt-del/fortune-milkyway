@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://cmo1fd8hm7boa"]
+[gd_scene load_steps=13 format=3 uid="uid://3jc62poruunt"]
 
 [ext_resource type="PackedScene" uid="uid://ddqlfu40gv1i5" path="res://scenes/map_container.tscn" id="1_0wfyh"]
 [ext_resource type="Script" uid="uid://3u3o2aml21up" path="res://script/main.gd" id="1_jyhfs"]
@@ -26,7 +26,7 @@ script = ExtResource("1_jyhfs")
 [node name="MapContainer" parent="." instance=ExtResource("1_0wfyh")]
 
 [node name="Player" parent="." instance=ExtResource("1_o5qli")]
-position = Vector2(-146, -207)
+position = Vector2(118, 36)
 
 [node name="PointLight2D" type="PointLight2D" parent="Player"]
 position = Vector2(1, -3)
