@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@onready var audio = $AudioStreamPlayer2D
+@onready var audio = $Audio_Jump
 @onready var sprite = $AnimatedSprite2D
 
 

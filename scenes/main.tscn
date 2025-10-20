@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://3jc62poruunt"]
+[gd_scene load_steps=13 format=3 uid="uid://3jc62poruunt"]
 
 [ext_resource type="PackedScene" uid="uid://ddqlfu40gv1i5" path="res://scenes/map_container.tscn" id="1_0wfyh"]
 [ext_resource type="Script" uid="uid://3u3o2aml21up" path="res://script/main.gd" id="1_jyhfs"]
@@ -8,13 +8,15 @@
 [ext_resource type="PackedScene" uid="uid://slam2ejnsnjr" path="res://scenes/ship.tscn" id="5_tipki"]
 [ext_resource type="AudioStream" uid="uid://b8qndokogyf1j" path="res://music/hurt.wav" id="6_o6xl0"]
 [ext_resource type="AudioStream" uid="uid://ilv740nh4586" path="res://music/chip-mode-danijel-zambo-main-version-1431-02-05.mp3" id="7_o6xl0"]
+[ext_resource type="PackedScene" uid="uid://c6r3ugnoar65a" path="res://scenes/ores.tscn" id="9_85g3d"]
+[ext_resource type="PackedScene" uid="uid://c2um5ccuan75k" path="res://scenes/candle.tscn" id="10_choun"]
 
-[sub_resource type="Gradient" id="Gradient_o6xl0"]
-offsets = PackedFloat32Array(0.39333335, 0.6666667, 0.92)
+[sub_resource type="Gradient" id="Gradient_ya4ey"]
+offsets = PackedFloat32Array(0.28, 0.5733333, 0.82666665)
 colors = PackedColorArray(1, 1, 1, 1, 0.08860755, 0.08860755, 0.08860755, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_tipki"]
-gradient = SubResource("Gradient_o6xl0")
+gradient = SubResource("Gradient_ya4ey")
 fill = 1
 fill_from = Vector2(0.4906542, 0.5)
 
@@ -24,7 +26,7 @@ script = ExtResource("1_jyhfs")
 [node name="MapContainer" parent="." instance=ExtResource("1_0wfyh")]
 
 [node name="Player" parent="." instance=ExtResource("1_o5qli")]
-position = Vector2(-142, -193)
+position = Vector2(118, 36)
 
 [node name="PointLight2D" type="PointLight2D" parent="Player"]
 position = Vector2(1, -3)
@@ -38,7 +40,7 @@ texture_scale = 4.0
 zoom = Vector2(3, 3)
 position_smoothing_enabled = true
 
-[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Player"]
+[node name="Audio_Jump" type="AudioStreamPlayer2D" parent="Player"]
 position = Vector2(-11, -573)
 stream = ExtResource("5_tefeu")
 volume_db = -20.0
@@ -87,6 +89,43 @@ z_index = 6
 position = Vector2(1354, -123)
 collision_layer = 3
 collision_mask = 3
+
+[node name="Ores" type="Node" parent="."]
+
+[node name="Ores1" parent="Ores" instance=ExtResource("9_85g3d")]
+position = Vector2(392, 202)
+
+[node name="Ores2" parent="Ores" instance=ExtResource("9_85g3d")]
+position = Vector2(504, 42)
+
+[node name="Ores3" parent="Ores" instance=ExtResource("9_85g3d")]
+position = Vector2(1096, 250)
+
+[node name="Ores4" parent="Ores" instance=ExtResource("9_85g3d")]
+position = Vector2(1016, 425)
+
+[node name="Ores5" parent="Ores" instance=ExtResource("9_85g3d")]
+position = Vector2(40, 361)
+
+[node name="Ores6" parent="Ores" instance=ExtResource("9_85g3d")]
+position = Vector2(201, 570)
+
+[node name="Candles" type="Node" parent="."]
+
+[node name="Candle" parent="Candles" instance=ExtResource("10_choun")]
+position = Vector2(200, 460)
+
+[node name="Candle2" parent="Candles" instance=ExtResource("10_choun")]
+position = Vector2(1115, 428)
+
+[node name="Candle3" parent="Candles" instance=ExtResource("10_choun")]
+position = Vector2(664, 172)
+
+[node name="Candle4" parent="Candles" instance=ExtResource("10_choun")]
+position = Vector2(152, 45)
+
+[node name="Candle5" parent="Candles" instance=ExtResource("10_choun")]
+position = Vector2(-76, 620)
 
 [connection signal="body_entered" from="Killzones/Killzone" to="." method="_on_killzone_body_entered"]
 [connection signal="body_entered" from="Killzones/Killzone2" to="." method="_on_killzone_body_entered"]
