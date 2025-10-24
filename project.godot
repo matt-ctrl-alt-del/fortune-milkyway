@@ -15,6 +15,10 @@ run/main_scene="uid://cb3eqotw8ilbq"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+InteractionManager="*res://interaction_folder/InteractionManager.tscn"
+
 [display]
 
 window/stretch/mode="viewport"
@@ -22,6 +26,10 @@ window/stretch/mode="viewport"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+
+[global_group]
+
+player=""
 
 [input]
 

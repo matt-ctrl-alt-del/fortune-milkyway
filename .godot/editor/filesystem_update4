@@ -3,3 +3,10 @@ res://script/ores.gd
 res://scenes/player.tscn
 res://scenes/main2.tscn
 res://scenes/enemies.tscn
+res://interaction_folder/interaction_area/interaction_area.tscn
+res://script/interaction_area.gd
+res://interaction_folder/InteractionManager.tscn
+res://script/interaction_manager.gd
+res://scenes/merchant.tscn
+res://script/merchant.gd
+res://scenes/main.tscn

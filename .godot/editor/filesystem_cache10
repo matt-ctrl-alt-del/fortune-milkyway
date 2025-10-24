@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1761272272
+::res://::1761277862
 ::res://addons/::1760830768
 Coolvetica Rg.otf::FontFile::6845260856766627385::1760830768::1760830768::1::::<><><>0<>0<>65539e17dc4c4649418fe1242afd6119<>res://.godot/imported/Coolvetica Rg.otf-5b680272827865d5e0bfa78fc9262e85.fontdata::
 ::res://addons/godot_super-wakatime/::1760814096
@@ -30,6 +30,11 @@ Test.tscn::PackedScene::8099162704508995467::1761029613::0::1::::<><><>0<>0<><>:
 7.png::CompressedTexture2D::8009645882085895189::1760830241::1760910303::1::::<><><>0<>0<>e81e1a3c0d6fd68667b1bddb1973945e<>res://.godot/imported/7.png-fa907b36f1b9d94abeffb3876945b585.ctex::
 Coolvetica Hv Comp.otf::FontFile::2592811314972492357::1760830765::1760910301::1::::<><><>0<>0<>ce6994b63d09b580730a501630a1cb48<>res://.godot/imported/Coolvetica Hv Comp.otf-b1b341a91ce4e55a4455ce9fb3884e92.fontdata::
 extraction point.jpg::CompressedTexture2D::886019323967680380::1760830405::1760910304::1::::<><><>0<>0<>f327c88b93ee73e9e2375fc7fb71f93e<>res://.godot/imported/extraction point.jpg-d8fe5b939b8a51789921d2394163d19f.ctex::
+::res://interaction_folder/::1761277862
+InteractionManager.tscn::PackedScene::5852292253058050660::1761275635::0::1::::<><><>0<>0<><>::uid://c4r5pf2w5toh2::::res://addons/Coolvetica Rg.otf
+notification.mp3::AudioStreamMP3::956164250554477629::1761277849::1761277862::1::::<><><>0<>0<>bae93b57c53769b07a4cb156f4fb572a<>res://.godot/imported/notification.mp3-f9df671ded48ddd771ec972d2d343e04.mp3str::
+::res://interaction_folder/interaction_area/::1761276637
+interaction_area.tscn::PackedScene::8349386577419600084::1761276637::0::1::::<><><>0<>0<><>::uid://cd5wk50fue1pi::::res://script/interaction_area.gd
 ::res://music/::1760913347
 boogie-pecan-pie-main-version-41135-02-14.mp3::AudioStreamMP3::7438500645433350617::1760827130::1760827130::1::::<><><>0<>0<>bcbc7b41adf398a94dde544a2163cc2f<>res://.godot/imported/boogie-pecan-pie-main-version-41135-02-14.mp3-6dd375184f939c47964cc5d83f62fdf5.mp3str::
 chip-mode-danijel-zambo-main-version-1431-02-05.mp3::AudioStreamMP3::585552669050424113::1760827130::1760827130::1::::<><><>0<>0<>6af6891f97ea45d0dc9981a7f1d9f833<>res://.godot/imported/chip-mode-danijel-zambo-main-version-1431-02-05.mp3-be312be5ea1705c1df17c9bbb5c23ac8.mp3str::
@@ -38,27 +43,32 @@ game-over-danijel-zambo-main-version-1394-02-03.mp3::AudioStreamMP3::25546691262
 hurt.wav::AudioStreamWAV::4736477997520814961::1760825012::1760825012::1::::<><><>0<>0<>b2b555e718705888e27b53d3ceb94a53<>res://.godot/imported/hurt.wav-30518c8475ddea0ede9e567d0cb18014.sample::
 jump.wav::AudioStreamWAV::3670814250483650812::1760825014::1760825015::1::::<><><>0<>0<>e6bed4a523883420b12263b04885d718<>res://.godot/imported/jump.wav-dae97bdee9cd6dddedd5e381204064bc.sample::
 tap.wav::AudioStreamWAV::2792202345994486458::1760825017::1760825018::1::::<><><>0<>0<>9747bdee0209f798e65b564c35c7ae60<>res://.godot/imported/tap.wav-8c62df1f9097316069e56e3a8609e266.sample::
-::res://scenes/::1761011815
+::res://scenes/::1761276530
 candle.tscn::PackedScene::6710009987470183022::1761011814::0::1::::<><><>0<>0<><>::uid://dgyqictp1x0xv::::res://sprites/Tilesets/Props.png
+enemies.tscn::PackedScene::8434278609174701520::1761274883::0::1::::<><><>0<>0<><>::
 health_bar.tscn::PackedScene::1183760715427992782::1760910300::0::1::::<><><>0<>0<><>::uid://bc68huoeytr4p::::res://Images/Coolvetica Hv Comp.otf<>uid://bcxofv8byj27u::::res://script/progress_bar.gd
 killzone.tscn::PackedScene::4130913262886844577::1760906680::0::1::::<><><>0<>0<><>::
 main1.tscn::PackedScene::1984045257210172877::1761011814::0::1::::<><><>0<>0<><>::uid://ddqlfu40gv1i5::::res://scenes/map_container.tscn<>uid://3u3o2aml21up::::res://script/main.gd<>uid://cqdt3ejc4h26h::::res://scenes/player.tscn<>uid://by4bsj233r1fh::::res://scenes/killzone.tscn<>uid://bskf1lgy73pr5::::res://music/jump.wav<>uid://slam2ejnsnjr::::res://scenes/ship.tscn<>uid://b8qndokogyf1j::::res://music/hurt.wav<>uid://ilv740nh4586::::res://music/chip-mode-danijel-zambo-main-version-1431-02-05.mp3<>uid://c6r3ugnoar65a::::res://scenes/ores.tscn<>uid://c2um5ccuan75k::::res://scenes/candle.tscn
-main2.tscn::PackedScene::141091923361839448::1761011814::0::1::::<><><>0<>0<><>::uid://3u3o2aml21up::::res://script/main.gd<>uid://cqdt3ejc4h26h::::res://scenes/player.tscn<>uid://ufhcvyxuh7yg::::res://scenes/map_container2.tscn<>uid://by4bsj233r1fh::::res://scenes/killzone.tscn<>uid://bskf1lgy73pr5::::res://music/jump.wav<>uid://slam2ejnsnjr::::res://scenes/ship.tscn<>uid://b8qndokogyf1j::::res://music/hurt.wav<>uid://ilv740nh4586::::res://music/chip-mode-danijel-zambo-main-version-1431-02-05.mp3<>uid://c6r3ugnoar65a::::res://scenes/ores.tscn<>uid://c2um5ccuan75k::::res://scenes/candle.tscn<>uid://riwq4nbpgx0s::::res://scenes/merchant.tscn
+main2.tscn::PackedScene::141091923361839448::1761274705::0::1::::<><><>0<>0<><>::uid://3u3o2aml21up::::res://script/main.gd<>uid://cqdt3ejc4h26h::::res://scenes/player.tscn<>uid://ufhcvyxuh7yg::::res://scenes/map_container2.tscn<>uid://by4bsj233r1fh::::res://scenes/killzone.tscn<>uid://bskf1lgy73pr5::::res://music/jump.wav<>uid://slam2ejnsnjr::::res://scenes/ship.tscn<>uid://b8qndokogyf1j::::res://music/hurt.wav<>uid://ilv740nh4586::::res://music/chip-mode-danijel-zambo-main-version-1431-02-05.mp3<>uid://c6r3ugnoar65a::::res://scenes/ores.tscn<>uid://c2um5ccuan75k::::res://scenes/candle.tscn<>uid://riwq4nbpgx0s::::res://scenes/merchant.tscn
 main.tscn::PackedScene::5645596559264819648::1761011814::0::1::::<><><>0<>0<><>::uid://ddqlfu40gv1i5::::res://scenes/map_container.tscn<>uid://3u3o2aml21up::::res://script/main.gd<>uid://cqdt3ejc4h26h::::res://scenes/player.tscn<>uid://by4bsj233r1fh::::res://scenes/killzone.tscn<>uid://bskf1lgy73pr5::::res://music/jump.wav<>uid://slam2ejnsnjr::::res://scenes/ship.tscn<>uid://b8qndokogyf1j::::res://music/hurt.wav<>uid://ilv740nh4586::::res://music/chip-mode-danijel-zambo-main-version-1431-02-05.mp3<>uid://c6r3ugnoar65a::::res://scenes/ores.tscn<>uid://c2um5ccuan75k::::res://scenes/candle.tscn
 map_container2.tscn::PackedScene::1414528493205835022::1761011815::0::1::::<><><>0<>0<><>::uid://ckipu5sioe67c::::res://sprites/Tilesets/world_tileset.png<>uid://clfxt2n55eddx::::res://sprites/Tilesets/Chipset.png<>uid://ct5c4w7brdkmg::::res://sprites/Tilesets/cave-platformer-tileset-16x16.png<>uid://b14dpex0abo52::::res://sprites/Tilesets/_Shipwreck_Props.png<>uid://dgyqictp1x0xv::::res://sprites/Tilesets/Props.png
 map_container.tscn::PackedScene::7403536538359402622::1761011815::0::1::::<><><>0<>0<><>::uid://ckipu5sioe67c::::res://sprites/Tilesets/world_tileset.png<>uid://clfxt2n55eddx::::res://sprites/Tilesets/Chipset.png<>uid://ct5c4w7brdkmg::::res://sprites/Tilesets/cave-platformer-tileset-16x16.png<>uid://b14dpex0abo52::::res://sprites/Tilesets/_Shipwreck_Props.png<>uid://dgyqictp1x0xv::::res://sprites/Tilesets/Props.png
 menu.tscn::PackedScene::4901104994533643950::1760910300::0::1::::<><><>0<>0<><>::uid://daoyrxfyh56an::::res://script/menu.gd<>uid://bc68huoeytr4p::::res://Images/Coolvetica Hv Comp.otf<>uid://dlnw0gi7el87f::::res://Images/2.png<>uid://cascnb2tx2qic::::res://button.tres<>uid://dli8bpifmonf4::::res://button_pressed.tres<>uid://bxput65qwueqq::::res://button_hover.tres
 merchant.tscn::PackedScene::1211091253747724608::1761011815::0::1::::<><><>0<>0<><>::uid://pvvm20n54a6s::::res://sprites/Characters/Minifantasy_NPCsJewellerIdle.png
-ores.tscn::PackedScene::6985526069519140352::1761011815::0::1::::<><><>0<>0<><>::uid://e74yxrmqmcv4::::res://sprites/Tilesets/Material_Piles.png
-player.tscn::PackedScene::5903259848075371801::1761011815::0::1::::<><><>0<>0<><>::uid://c51u4kjtqabnu::::res://sprites/Characters/Minifantasy_TrueHeroesRogueIdle.png<>uid://dq046ls7hfd8b::::res://script/player.gd<>uid://cwjptrxakfpid::::res://sprites/Characters/Minifantasy_TrueHeroesRogueDmg.png<>uid://diluwasitlbng::::res://sprites/Characters/Minifantasy_TrueHeroesRogueJump.png<>uid://cva5ulkdaqdno::::res://sprites/Characters/Minifantasy_TrueHeroesRogueWalk.png
+ores.tscn::PackedScene::6985526069519140352::1761274629::0::1::::<><><>0<>0<><>::uid://bcc8tpp3m7ytf::::res://sprites/Tilesets/Material_Piles.png<>uid://wkvghoosqfwf::::res://script/ores.gd
+player.tscn::PackedScene::5903259848075371801::1761276530::0::1::::<><><>0<>0<><>::uid://c51u4kjtqabnu::::res://sprites/Characters/Minifantasy_TrueHeroesRogueIdle.png<>uid://dq046ls7hfd8b::::res://script/player.gd<>uid://cwjptrxakfpid::::res://sprites/Characters/Minifantasy_TrueHeroesRogueDmg.png<>uid://diluwasitlbng::::res://sprites/Characters/Minifantasy_TrueHeroesRogueJump.png<>uid://cva5ulkdaqdno::::res://sprites/Characters/Minifantasy_TrueHeroesRogueWalk.png
 ship.tscn::PackedScene::1286130195042784759::1760910362::0::1::::<><><>0<>0<><>::uid://bri16ci0fsfu6::::res://sprites/Items/sailship.png
-::res://script/::1761011815
+::res://script/::1761276811
 1.png::CompressedTexture2D::1273316778112146283::1760832899::1760832902::1::::<><><>0<>0<>e02396803fb073ad42f5cbcd4f7b496e<>res://.godot/imported/1.png-b58c29f785884e1af9e6103b5b5f42d2.ctex::
 2.png::CompressedTexture2D::684489710887191834::1760832899::1760832902::1::::<><><>0<>0<>e1a21ca20d681a7a5b73a8b43b70892a<>res://.godot/imported/2.png-90a2f9540bd8304867ec672fdd080b0a.ctex::
 3.png::CompressedTexture2D::6572690603540744117::1760832899::1760832904::1::::<><><>0<>0<>cfabd59e61824ff15e8ad6b11a6edce6<>res://.godot/imported/3.png-627ede72f37661ef46df5e9066dd95e2.ctex::
+interaction_area.gd::GDScript::5046694477276710062::1761276637::0::1::::InteractionArea<>Area2D<><>0<>0<><>::
+interaction_manager.gd::GDScript::4302465015523604018::1761276551::0::1::::<>Node2D<><>0<>0<><>::
 killzone.gd::GDScript::4997841554660100943::1760834972::0::1::::<>Area2D<><>0<>0<><>::
 main.gd::GDScript::2008301672549702439::1761011815::0::1::::<>Node2D<><>0<>0<><>::
 menu.gd::GDScript::7189652122821013289::1761011815::0::1::::<>Node2D<><>0<>0<><>::
+merchant.gd::GDScript::4186662856783125028::1761276811::0::1::::<>Area2D<><>0<>0<><>::
+ores.gd::GDScript::1566084499140333541::1761274482::0::1::::<>Area2D<><>0<>0<><>::
 player.gd::GDScript::8335709752567415047::1760922920::0::1::::<>CharacterBody2D<><>0<>0<><>::
 progress_bar.gd::GDScript::2575139180227587944::1760835420::0::1::::<>ProgressBar<><>0<>0<><>::
 ::res://sprites/::1761011814
