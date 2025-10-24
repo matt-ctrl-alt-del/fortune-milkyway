@@ -77,20 +77,20 @@ texture_scale = 4.0
 [node name="Killzone" parent="Killzones" instance=ExtResource("2_tbgi4")]
 z_index = 6
 position = Vector2(-61, 708)
-collision_layer = 3
-collision_mask = 3
+collision_layer = 8
+collision_mask = 8
 
 [node name="Killzone2" parent="Killzones" instance=ExtResource("2_tbgi4")]
 z_index = 6
 position = Vector2(-1468, -123)
-collision_layer = 3
-collision_mask = 3
+collision_layer = 8
+collision_mask = 8
 
 [node name="Killzone3" parent="Killzones" instance=ExtResource("2_tbgi4")]
 z_index = 6
 position = Vector2(1354, -123)
-collision_layer = 3
-collision_mask = 3
+collision_layer = 8
+collision_mask = 8
 
 [node name="Ores" type="Node" parent="."]
 
