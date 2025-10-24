@@ -1,7 +1,8 @@
-[gd_scene load_steps=39 format=3 uid="uid://riwq4nbpgx0s"]
+[gd_scene load_steps=40 format=3 uid="uid://riwq4nbpgx0s"]
 
 [ext_resource type="Script" uid="uid://b0wbyw05e5mu3" path="res://script/merchant.gd" id="1_7rnkl"]
 [ext_resource type="Texture2D" uid="uid://pvvm20n54a6s" path="res://sprites/Characters/Minifantasy_NPCsJewellerIdle.png" id="1_v18v5"]
+[ext_resource type="AudioStream" uid="uid://nvf5dwb654cf" path="res://interaction_folder/notification.mp3" id="3_0gj23"]
 [ext_resource type="PackedScene" uid="uid://dq7rgaxsj1qbs" path="res://interaction_folder/interaction_area/interaction_area.tscn" id="3_1xj0k"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_12ke4"]
@@ -261,6 +262,7 @@ position = Vector2(1, -3)
 shape = SubResource("CircleShape2D_iwe42")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_0gj23")
 
 [node name="InteractionArea" parent="." instance=ExtResource("3_1xj0k")]
 action_name = "talk"

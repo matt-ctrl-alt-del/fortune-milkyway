@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bc68huoeytr4p"
-path="res://.godot/imported/Coolvetica Hv Comp.otf-b1b341a91ce4e55a4455ce9fb3884e92.fontdata"
+uid="uid://c4r5pf2w5toh2"
+path="res://.godot/imported/Coolvetica Rg.otf-6250cd1228e28fd93a9b9e32379b4cb6.fontdata"
 
 [deps]
 
-source_file="res://Images/Coolvetica Hv Comp.otf"
-dest_files=["res://.godot/imported/Coolvetica Hv Comp.otf-b1b341a91ce4e55a4455ce9fb3884e92.fontdata"]
+source_file="res://sprites/fonts/Coolvetica Rg.otf"
+dest_files=["res://.godot/imported/Coolvetica Rg.otf-6250cd1228e28fd93a9b9e32379b4cb6.fontdata"]
 
 [params]
 
