@@ -1,0 +1,5 @@
+res://scenes/ores.tscn
+res://script/ores.gd
+res://scenes/player.tscn
+res://scenes/main2.tscn
+res://scenes/enemies.tscn

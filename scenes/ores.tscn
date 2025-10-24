@@ -1,11 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://c6r3ugnoar65a"]
+[gd_scene load_steps=4 format=3 uid="uid://c6r3ugnoar65a"]
 
-[ext_resource type="Texture2D" uid="uid://e74yxrmqmcv4" path="res://sprites/Tilesets/Material_Piles.png" id="1_3v5nf"]
+[ext_resource type="Texture2D" uid="uid://bcc8tpp3m7ytf" path="res://sprites/Tilesets/Material_Piles.png" id="1_3v5nf"]
+[ext_resource type="Script" uid="uid://wkvghoosqfwf" path="res://script/ores.gd" id="1_dk086"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dk086"]
 size = Vector2(16, 11)
 
 [node name="Ores" type="Area2D"]
+collision_layer = 8
+collision_mask = 8
+script = ExtResource("1_dk086")
 
 [node name="Ores_image" type="Sprite2D" parent="."]
 texture = ExtResource("1_3v5nf")
@@ -14,3 +18,5 @@ region_rect = Rect2(62, 313, 20, 19)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_dk086")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
